@@ -1,0 +1,85 @@
+/* Large Screen Styles */
+
+@media (min-width: 768px) {
+    /* Header adjustments for larger screens */
+    .hamburger {
+        display: none;
+    }
+
+    /* Navigation - horizontal layout */
+    nav {
+        background-color: #374151;
+        max-height: none;
+        overflow: visible;
+    }
+
+    nav ul {
+        display: flex;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+
+    nav li {
+        border-bottom: none;
+        border-right: 1px solid #4b5563;
+    }
+
+    nav li:last-child {
+        border-right: none;
+    }
+
+    nav a {
+        padding: 1rem 1.5rem;
+        white-space: nowrap;
+    }
+
+    /* Main content grid layout */
+    main {
+        padding: 3rem 2rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        text-align: left;
+    }
+
+    /* Two-column layout for about and photo sections */
+    .content-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .about-section,
+    .photo-section {
+        margin-bottom: 0;
+    }
+
+    /* Course grid - multiple columns */
+    .course-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        padding: 0 2rem;
+    }
+
+    .filter-buttons {
+        padding: 2rem;
+    }
+
+    .filter-btn {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+
+    /* Footer improvements */
+    footer {
+        padding: 3rem 2rem;
+    }
+
+    .social-links {
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+}
