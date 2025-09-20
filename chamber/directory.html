@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Directory - Arkadia Deco' Chamber of Commerce</title>
+    <meta name="description" content="Explore local businesses in Riverside. Find contact information, services, and connect with chamber members.">
+    <meta name="author" content="Your Name">
+    
+    <!-- Facebook Meta Tags -->
+    <meta property="og:title" content="Business Directory - Riverside Chamber of Commerce">
+    <meta property="og:description" content="Explore local businesses in Riverside. Find contact information, services, and connect with chamber members.">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/2563eb/ffffff?text=Riverside+Chamber">
+    <meta property="og:url" content="https://yoursite.com/chamber/directory.html">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Arkadia Deco' </h1>
+                <p>Building Business Together</p>
+            </div>
+            <nav>
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="directory.html" class="active">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="directory-header">
+                <h2>Business Directory</h2>
+                <p>Discover and connect with local businesses in our community</p>
+                <div class="view-controls">
+                    <button id="grid-btn" class="view-btn active" aria-label="Grid view">
+                        <span class="grid-icon">⊞</span> Grid
+                    </button>
+                    <button id="list-btn" class="view-btn" aria-label="List view">
+                        <span class="list-icon">☰</span> List
+                    </button>
+                </div>
+            </section>
+
+            <section id="members-container" class="members-grid">
+                <!-- Members will be loaded here via JavaScript -->
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Arkadia Deco' Chamber of Commerce</h3>
+                    <p>123 Main Street<br>
+                    Riverside, CA 92501<br>
+                    Phone: (951) 555-0123<br>
+                    Email: info@riversidechamber.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="join.html">Join Us</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Arkadia Deco' Chamber of Commerce | Federico Pereyra | WDD 231 | Last Updated: <span id="lastModified"></span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/directory.js"></script>
+</body>
+</html>

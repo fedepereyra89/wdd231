@@ -1,0 +1,78 @@
+[
+    {
+    "name": "Lumilagro",
+    "address": "Av. Olivos 3726 – CP B1667AUP",
+    "phone": "tiendaoficial@lumilagro.com.ar",
+    "website": "https://www.lumilagro.com.ar/productos/termos-de-acero/",
+    "image": "images/Lumilagro-icon.jpg",
+    "membershipLevel": 1,
+    "services": "Mates, termos, bombillas, equipos de mate"
+  },
+  {
+    "name": "Mateando",
+    "address": "Costa Rica 5651, Palermo Hollywood, Capital Federal",
+    "phone": "1138487225",
+    "website": "https://www.mateandoarg.com/",
+    "image": "images/mateando-icon.png",
+    "membershipLevel": 3,
+    "services": "Mates, termos, bombillas, equipos de mate"
+  },
+    {
+    "name": "Liebig - Yerba Mate",
+    "address": "Av. San Martín 99 - Colonia Liebig – Corrientes – Argentina",
+    "phone": "+54 9 03758 – 422182",
+    "website": "https://cooperativaliebig.com.ar/",
+    "image": "images/Liebig-icon.jpg",
+    "membershipLevel": 2,
+    "services": "Yerba Mate"
+  },
+
+    {
+    "name": "Las Marias",
+    "address": "Ruta Nacional 14 Km 739 (W3342BQA) Gdor. Virasoro",
+    "phone": "03756 493000",
+    "website": "https://www.lasmarias.com.ar/marcas",
+    "image": "images/Las-Marias-icon.jpg",
+    "membershipLevel": 3,
+    "services": "Yerba Mate Taragui, Union, La Merced y Mañanita"
+  },
+  
+  {
+    "name": "Mate sur",
+    "address": "DOBLAS 955 Caballito Capital Federal",
+    "phone": "1139526281",
+    "website": "https://www.matesur.net/",
+    "image": "images/mate-sur-icon.jpg",
+    "membershipLevel": 2,
+    "services": "Mates, termos, bombillas, equipos de mate"
+  },
+  {
+    "name": "Hudson",
+    "address": "Website",
+    "phone": "5491121853997",
+    "website": "https://www.hudsoncocina.com.ar/desayuno",
+    "image": "images/Hudson-icon.jpg",
+    "membershipLevel": 3,
+    "services": "Mates, termos, bombillas, equipos de mate"
+  },
+
+  {
+    "name": "Stanley Argentina",
+    "address": "Website",
+    "phone": "5491139178980",
+    "website": "https://www.stanley1913.ar/149?map=productClusterIds",
+    "image": "images/Stanley-icon.png",
+    "membershipLevel": 2,
+    "services": "Mates, termos, bombillas, equipos de mate"
+  },
+  {
+    "name": "Matematico",
+    "address": "Florencio sanchez 475, Bahia Blanca pcia Bs As",
+    "phone": "2915332989",
+    "website": "https://www.matematicomates.com/",
+    "image": "images/Matematicos-icon.jpg",
+    "membershipLevel": 1,
+    "services": "Mates, termos, bombillas, equipos de mate"
+  }
+
+]

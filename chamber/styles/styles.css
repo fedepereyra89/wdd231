@@ -1,0 +1,351 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+header {
+    background-color: #1f2937;
+    color: white;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.logo p {
+    margin: 0;
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+
+nav {
+    position: relative;
+}
+
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.nav-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: white;
+    margin: 3px 0;
+    transition: 0.3s;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 2rem;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-menu a:hover,
+.nav-menu a.active {
+    background-color: rgba(255,255,255,0.2);
+}
+
+
+main {
+    padding: 2rem 0;
+    min-height: 60vh;
+}
+
+.directory-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.directory-header h2 {
+    color: #2563eb;
+    margin-bottom: 0.5rem;
+}
+
+.view-controls {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.view-btn {
+    background: white;
+    border: 2px solid #2563eb;
+    color: #2563eb;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.view-btn:hover {
+    background-color: #f0f9ff;
+}
+
+.view-btn.active {
+    background-color: #2563eb;
+    color: white;
+}
+
+
+.members-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.members-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.member-card {
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.member-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.member-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.member-card h3 {
+    color: #2563eb;
+    margin: 0 0 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.member-card p {
+    margin: 0.25rem 0;
+    color: #666;
+}
+
+.member-card .website {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.member-card .website:hover {
+    text-decoration: underline;
+}
+
+.membership-level {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.level-1 { background-color: #fef3c7; color: #92400e; }
+.level-2 { background-color: #e5e7eb; color: #374151; }
+.level-3 { background-color: #fde68a; color: #d97706; }
+
+
+.members-list .member-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.members-list .member-image {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 0;
+    flex-shrink: 0;
+}
+
+.members-list .member-info h3 {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.members-list .member-info p {
+    font-size: 0.9rem;
+    margin: 0.1rem 0;
+}
+
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 2rem 0 1rem;
+    margin-top: 3rem;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer-section h3 {
+    color: #60a5fa;
+    margin-bottom: 1rem;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-section a {
+    color: #d1d5db;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    border-top: 1px solid #374151;
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #9ca3af;
+}
+
+
+@media (max-width: 768px) {
+    .nav-toggle {
+        display: flex;
+    }
+
+    .nav-menu {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: #2563eb;
+        flex-direction: column;
+        width: 200px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        border-radius: 0 0 5px 5px;
+    }
+
+    .nav-menu.active {
+        max-height: 300px;
+        padding: 1rem 0;
+    }
+
+    .nav-menu li {
+        margin: 0;
+    }
+
+    .nav-menu a {
+        display: block;
+        padding: 0.75rem 1rem;
+    }
+
+    .members-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .view-controls {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .view-btn {
+        width: 150px;
+        justify-content: center;
+    }
+
+    .members-list .member-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .members-list .member-image {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    header .container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .members-grid {
+        gap: 1rem;
+    }
+}
