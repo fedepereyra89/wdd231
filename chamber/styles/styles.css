@@ -19,7 +19,7 @@ body {
 
 
 header {
-    background-color: #1f2937;
+    background-color: #2563eb;
     color: white;
     padding: 1rem 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -273,6 +273,202 @@ footer {
 }
 
 
+.hero {
+    background: linear-gradient(rgba(37, 99, 235, 0.8), rgba(37, 99, 235, 0.8)), 
+                url('../images/arkadia-icon.jpg') center/cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #fbbf24;
+    color: #1f2937;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: all 0.3s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.cta-button:hover {
+    background-color: #f59e0b;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+
+.events-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.events-section h3 {
+    color: #2563eb;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 0.5rem;
+}
+
+.event-card {
+    background: #f8fafc;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    border-left: 4px solid #2563eb;
+}
+
+.event-card h4 {
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+}
+
+.event-card p {
+    margin: 0.25rem 0;
+    color: #4b5563;
+}
+
+
+.weather-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.weather-section h3 {
+    color: #2563eb;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 0.5rem;
+}
+
+.weather-info {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.current-weather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.temperature {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+.weather-description {
+    font-size: 1.1rem;
+    color: #4b5563;
+    text-transform: capitalize;
+}
+
+.forecast {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.forecast-day {
+    text-align: center;
+    padding: 1rem;
+    background: #f8fafc;
+    border-radius: 8px;
+}
+
+.forecast-day h5 {
+    margin: 0 0 0.5rem 0;
+    color: #1f2937;
+}
+
+.forecast-temp {
+    font-weight: bold;
+    color: #2563eb;
+}
+
+
+.spotlights-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.spotlights-section h3 {
+    color: #2563eb;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 0.5rem;
+}
+
+.spotlight-card {
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.spotlight-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.spotlight-card h4 {
+    color: #2563eb;
+    margin-bottom: 0.5rem;
+}
+
+.spotlight-card p {
+    margin: 0.25rem 0;
+    color: #4b5563;
+}
+
+.spotlight-card .website {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.spotlight-card .website:hover {
+    text-decoration: underline;
+}
+
+
 @media (max-width: 768px) {
     .nav-toggle {
         display: flex;
@@ -320,6 +516,18 @@ footer {
         justify-content: center;
     }
 
+    .hero-content h2 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .forecast {
+        grid-template-columns: 1fr;
+    }
+
     .members-list .member-card {
         flex-direction: column;
         text-align: center;
@@ -328,6 +536,27 @@ footer {
     .members-list .member-image {
         width: 100px;
         height: 100px;
+    }
+}
+
+@media (min-width: 769px) {
+    .home-grid {
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas: 
+            "events weather"
+            "spotlights spotlights";
+    }
+
+    .events-section {
+        grid-area: events;
+    }
+
+    .weather-section {
+        grid-area: weather;
+    }
+
+    .spotlights-section {
+        grid-area: spotlights;
     }
 }
 
