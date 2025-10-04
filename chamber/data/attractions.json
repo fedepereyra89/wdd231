@@ -1,0 +1,57 @@
+[
+    {
+    "name": "Obelisco",
+    "address": "Av. 9 de Julio s/n, C1043 CABA, Argentina",
+    "description": "An iconic symbol of Buenos Aires, located at the intersection of 9 de Julio and Corrientes Avenues, this 67-meter-high monument commemorates the 400th anniversary of the city's founding and is a gathering point for celebrations.",
+    "image": "images/obelisco.webp"
+  },
+
+  {
+    "name": "Teatro Colón",
+    "address": "Cerrito 628, C1010 CABA, Argentina",
+    "description": "One of the world's most important opera houses. This magnificent 1908 building is renowned for its exceptional acoustics and stunning architecture. It offers guided tours and performances of opera, ballet, and classical music.",
+    "image": "images/teatro-colon.webp"
+  },
+  {
+    "name": "Plaza de Mayo",
+    "address": "Plaza de Mayo, C1066 CABA, Argentina",
+    "description": "The political and historical heart of Argentina. This historic square houses the Casa Rosada, the seat of the national government, and the Metropolitan Cathedral. It has been the scene of important historical events and political demonstrations.",
+    "image": "images/plaza-de-mayo.webp"
+  },
+ 
+  {
+    "name": "Recoleta y su Cementerio",
+    "address": "Junín 1760, C1113 CABA, Argentina",
+    "description": "An elegant neighborhood home to the famous Recoleta Cemetery, the final resting place of illustrious figures such as Eva Perón. Its mausoleums are true works of architectural art in a solemn setting.",
+    "image": "images/cementerio.webp"
+  },
+
+  {
+    "name": "Puerto Madero",
+    "address": "Puerto Madero, C1107 CABA, Argentina",
+    "description": "Modern financial and residential district built on the old harbor dikes. It offers high-end restaurants, modern skyscrapers, and the iconic Women's Bridge. Perfect for riverside strolls.",
+    "image": "images/puerto-madero.webp"
+  },
+
+    {
+    "name": "Palermo",
+    "address": "Palermo, C1425 CABA, Argentina",
+    "description": "The largest neighborhood in Buenos Aires, known for its parks, nightlife, and gastronomy. It includes the Palermo Woods, the Botanical Garden, the Planetarium, and numerous trendy bars and restaurants.",
+    "image": "images/planetario.webp"
+  },
+
+   {
+    "name": "Barrio de La Boca",
+    "address": "La Boca, C1161 CABA, Argentina",
+    "description": "A colorful Buenos Aires neighborhood famous for its vibrantly painted metal houses. Home to the famous Caminito, an open-air street museum filled with art, tango, and local culture. Home to the Boca Juniors Athletic Club.",
+    "image": "images/caminito.webp"
+  },
+
+  {
+    "name": "San Telmo",
+    "address": "San Telmo, C1103 CABA, Argentina",
+    "description": "A bohemian and artistic neighborhood known for its colonial architecture, antiques, and tango. On Sundays, the famous San Telmo Fair takes place in Plaza Dorrego, where you can enjoy street tango performances.",
+    "image": "images/san-telmo.webp"
+  }
+
+]
