@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/personalpage.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Final Project - Personal Site</title>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="project.html">
+                <img class="logo" src="images/arkadia.jpg" alt="Arkadia Deco'">
+            </a>
+            <nav>
+                <a href="project.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="recommendations.html">Recommendations</a>
+            </nav>
+        </header>
+
+
+        <button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+
+        <div id="id01" class="modal">
+            <span onclick="document.getElementById('id01').style.display='none'"
+            class="close" title="Close Modal">&times;</span>
+
+
+            <form class="modal-content animate" action="form-action.html" method="get">
+                <div class="imgcontainer">
+                    <img src="images/avatar.jpg" alt="Avatar" class="avatar">
+                </div>
+
+                <div class="container">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" id="uname" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+                    <button type="submit">Login</button>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                </div>
+
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+            </form>
+        </div>
+
+        <section id="main-title">
+            <h1 class="main-title">Home Page</h1>
+            <p id="welcome-message">Welcome to Arkadia Deco!</p>
+        </section>
+
+        <div class="mhp">
+            <p>Why come to visit my site? Here in Arkadia Deco' we have the best models of Mates
+            and Yerbateros. All in woodwork. We have mates from palo santo, oak, carob, caldén, quebracho,
+            and pumpkin. Also, if you like, we can personalize your Mate with phrases and colors that you
+            love the most.</p>
+        </div>
+
+        <main class="home-grid">
+            <section class="hexagonal-card">
+                <img class="card-img" src="images/Hexagonal.jpg" alt="mate hexagonal" loading="lazy">
+                <h2>Mate Hexagonal</h2>
+            </section>
+            <section class="algarrobo-card">
+                <img class="card-img" src="images/mate-algarrobo.jpg" alt="algarrobo" loading="lazy">
+                <h2>Mate of carob tree</h2>
+            </section>
+            <section class="algarrobo-hexagonal-card">
+                <img class="card-img" src="images/mate-algarrobo-Hexagonal.jpg" alt="algarrobo hexagonal" loading="lazy">
+                <h2>Mate Hexagonal carob tree</h2>
+            </section>
+        </main>
+
+        <footer>
+            <h3>Arkadia Deco' &copy; 2025</h3>
+            <h3><a href="products.html">Products</a></h3>
+            <h3><a href="recommendations.html">Recommendations</a></h3>
+            <div class="social">
+                <a href="https://instagram.com/arkadia.homedeco/" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script type="module" src="scripts/script.js"></script>
+</body>
+</html>
