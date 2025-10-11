@@ -55,7 +55,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: var(--secondary-color);
+    color: #ffffff;
     padding: 1rem 1.5rem;
     border-radius: 8px;
     transition: all 0.3s ease;
@@ -63,8 +63,8 @@ nav a {
 }
 
 nav a:hover {
-    color: #db9253;
-    background-color: rgba(219, 146, 83, 0.1);
+    color: #ffffff;
+    background-color: rgba(109, 72, 48, 0.8);
 }
 
 h1, h2, h3, h4 {
@@ -231,7 +231,7 @@ h4 {
     margin-top: 2rem;
     padding: 0.75rem 1.5rem;
     background-color: var(--primary-color);
-    color: var(--secondary-color);
+    color: #ffffff;
     text-decoration: none;
     border-radius: 8px;
     font-weight: 600;
@@ -244,7 +244,7 @@ h4 {
 
 footer {
     background-color: var(--primary-color);
-    color: var(--secondary-color);
+    color: #ffffff;
     padding: 2rem;
     margin-top: 2rem;
     display: grid;
@@ -255,13 +255,14 @@ footer {
 }
 
 footer a {
-    color: var(--secondary-color);
+    color: #ffffff;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 footer a:hover {
-    color: #db9253;
+    color: #ffcc80;
+    text-decoration: underline;
 }
 
 footer .social img {
@@ -284,25 +285,25 @@ footer h3 {
     border: none;
     outline: none;
     background-color: var(--primary-color);
-    color: white;
+    color: #ffffff;
     cursor: pointer;
     padding: 15px 20px;
     border-radius: 50px;
     font-size: 16px;
     font-weight: 600;
-    border: 4px solid var(--secondary-color);
+    border: 4px solid #ffffff;
     transition: all 0.3s ease;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 #myBtn:hover {
-    background-color: #db9253;
+    background-color: #5a3a28;
     transform: translateY(-2px);
 }
 
 button {
     background-color: var(--primary-color);
-    color: var(--secondary-color);
+    color: #ffffff;
     border: none;
     padding: 0.75rem 1.5rem;
     border-radius: 8px;
@@ -392,7 +393,7 @@ button:hover {
 
 .container button {
     background-color: var(--primary-color);
-    color: var(--secondary-color);
+    color: #ffffff;
     padding: 14px 24px;
     margin: 8px 0;
     border: none;
